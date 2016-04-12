@@ -1,0 +1,7 @@
+{
+  "name": "chai-xml",
+  "main": "chai-xml.d.ts",
+  "dependencies": {
+    "chai": "github:typed-typings/npm-chai#e66bbd38e8827ca190186951ccee226e2e964e1b"
+  }
+}
