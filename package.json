@@ -1,8 +1,7 @@
 {
   "scripts": {
-    "build": "typings bundle . -o bundle.d.ts",
-    "pretest": "npm build",
-    "test": "mocha test/index.js"
+    "build": "typings bundle ./ -o bundle.d.ts",
+    "test": "tsc test/index.ts && mocha test/index.js"
   },
   "private": true,
   "devDependencies": {

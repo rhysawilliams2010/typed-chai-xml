@@ -4,8 +4,10 @@
     "module": "commonjs"
   },
   "files": [
-    "chai-xml.d.ts",
-    "test/index.ts",
+    "index.d.ts",
     "typings/main.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
   ]
 }

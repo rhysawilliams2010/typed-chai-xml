@@ -3,7 +3,7 @@
 
 import * as chai from "chai";
 import {expect} from "chai";
-import * as chaiXml from "chai-xml";
+import chaiXml = require("chai-xml");
 
 chai.use(chaiXml);
 
