@@ -1,11 +1,12 @@
-declare namespace Chai {
+import {Assertion} from '~chai/lib/Assertion';
+
+declare module '~chai/lib/Assertion' {
     interface Assertion {
-        xml : string;
+        xml: Assertion;
         valid(obj: Object): Assertion;
     }
 }
 
-declare module "chai-xml" {
-    function chaiXml(chai: any, utils: any): void;
-    export = chaiXml;
-}
+declare function chaiXml(chai: any, utils: any): void;
+
+export = chaiXml;
