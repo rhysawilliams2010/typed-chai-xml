@@ -1,2 +1,4 @@
-typings/
+node_modules
+typings
+bundle.d.ts
 .idea/

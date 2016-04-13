@@ -1,9 +1,11 @@
 {
   "compilerOptions": {
-      "module": "commonjs"
+    "target": "es5",
+    "module": "commonjs"
   },
   "files": [
-      "typings/main.d.ts",
-    "chai-xml.d.ts"
+    "chai-xml.d.ts",
+    "test/index.ts",
+    "typings/main.d.ts"
   ]
 }

@@ -4,5 +4,8 @@
   "dependencies": {
     "chai": "github:typed-typings/npm-chai#e66bbd38e8827ca190186951ccee226e2e964e1b"
   },
-  "version": "0.3.1"
+  "version": "0.3.1",
+  "ambientDependencies": {
+    "mocha": "registry:dt/mocha#2.2.5+20160317120654"
+  }
 }
