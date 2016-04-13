@@ -1,6 +1,7 @@
 {
   "scripts": {
     "build": "typings bundle . -o bundle.d.ts",
+    "pretest": "npm build",
     "test": "mocha test/index.js"
   },
   "private": true,
